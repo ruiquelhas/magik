@@ -1,0 +1,32 @@
+{
+  "name": "magik",
+  "version": "0.0.1",
+  "description": "File signature utilities.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "lab -a code -L -t 100"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ruiquelhas/magik.git"
+  },
+  "keywords": [
+    "files",
+    "signature",
+    "magic"
+  ],
+  "author": "Rui Quelhas <rfpquelhas@gmail.com>",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/ruiquelhas/magik/issues"
+  },
+  "homepage": "https://github.com/ruiquelhas/magik#readme",
+  "devDependencies": {
+    "code": "2.x.x",
+    "lab": "7.x.x",
+    "sinon": "1.x.x"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  }
+}
