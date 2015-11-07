@@ -4,7 +4,9 @@
   "description": "File signature utilities.",
   "main": "lib/index.js",
   "scripts": {
-    "test": "lab -a code -L -t 100"
+    "test": "lab -a code -L -t 100",
+    "test-tap": "lab -a code -r tap -o tests.tap",
+    "test-cov-html": "lab -a code -r html -o coverage.html"
   },
   "repository": {
     "type": "git",
