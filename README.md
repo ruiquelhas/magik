@@ -1,0 +1,2 @@
+# magik
+File signature utilities.
