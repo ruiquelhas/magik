@@ -27,7 +27,7 @@ lab.experiment('Magik', () => {
 
     lab.test('returns error if the buffer signature is invalid', (done) => {
 
-        const signature = new Buffer('');
+        const signature = new Buffer([0x00]);
 
         Magik.guess(signature, (err, type) => {
 
