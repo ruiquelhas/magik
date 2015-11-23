@@ -42,7 +42,7 @@ Magik.guess(input, (err, types) => {
   console.log(err); // [Error: invalid input type]
 });
 
-const invalid = new Buffer('');
+const invalid = new Buffer([0xFF]);
 Magik.guess(invalid, (err, types) => {
   console.log(err); // [Error: invalid file signature]
 });
@@ -73,10 +73,6 @@ Currently, the following file types are supported:
 * `png`
 * `doc`, `xls`, `ppt`
 * `jpg`, `jpeg`
-
-## Contributing
-
-Feel free to open [issues](https://github.com/ruiquelhas/magik/issues/new) or submit [pull requests](https://github.com/ruiquelhas/magik/compare).
 
 [coveralls-img]: https://coveralls.io/repos/ruiquelhas/magik/badge.svg
 [coveralls-url]: https://coveralls.io/github/ruiquelhas/magik
