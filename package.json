@@ -1,9 +1,10 @@
 {
   "name": "magik",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "File signature utilities.",
   "main": "lib/index.js",
   "scripts": {
+    "changelog": "github_changelog_generator --header-label='# Changelog'",
     "coveralls": "lab -r lcov | ./node_modules/.bin/coveralls",
     "test": "lab -a code -L -t 100",
     "test-tap": "lab -a code -r tap -o tests.tap",
