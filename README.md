@@ -20,31 +20,31 @@ $ npm install magik
 ## Usage
 
 ### `guess(buffer, fn)`
-Get the list of file types that match the buffer signature. If the input is not a buffer or the buffer signature is invalid, it results in an error.
+Get the list of file types that match the buffer signature. If the input is not a `Buffer` or the buffer signature is invalid, it results in an error.
 
 #### Examples
 
 ```js
 const Magik = require('magik');
 
-const png = new Buffer([0x89, 0x50]);
-Magik.guess(png, (err, types) => {
-  console.log(types); // ['png']
+Magik.guess(new Buffer([0x89, 0x50]), (err, types) => {
+
+    console.log(types); // ['png']
 });
 
-const unknown = new Buffer([0x00, 0x00]);
-Magik.guess(unknown, (err, types) => {
-  console.log(types); // []
+Magik.guess(new Buffer([0x00, 0x00]), (err, types) => {
+
+    console.log(types); // []
 });
 
-const input = {};
-Magik.guess(input, (err, types) => {
-  console.log(err); // [Error: invalid input type]
+Magik.guess({}, (err, types) => {
+
+    console.log(err); // [Error: invalid input type]
 });
 
-const invalid = new Buffer([0xFF]);
-Magik.guess(invalid, (err, types) => {
-  console.log(err); // [Error: invalid file signature]
+Magik.guess(new Buffer([0xFF]), (err, types) => {
+
+    console.log(err); // [Error: invalid file signature]
 });
 ```
 
