@@ -49,30 +49,16 @@ Magik.guess(new Buffer([0xFF]), (err, types) => {
 ```
 
 ## Supported File Types
+
 Currently, the following file types are supported:
 
-* `gz`, `gzip`
-* `pdf`
-* `asf`, `wma`, `wmv`
-* `mp4`, `mpeg4`
-* `7z`
-* `bz`, `bz2`, `bzip`
-* `bmp`
-* `iso`
-* `aif`, `aifc`, `aiff`, `iff`, `snd`
-* `gif`
-* `mp3`, `mpeg1`, `mpeg2`
-* `tif`, `tiff`
-* `oga`, `ogg`, `ogv`
-* `pkzip`, `zip`
-* `avi`, `wav`
-* `flac`
-* `3g2`, `3gp`
-* `tar`
-* `dmg`
-* `png`
-* `doc`, `xls`, `ppt`
-* `jpg`, `jpeg`
+Category | Type
+-------- | ----------
+Audio/Video | `3g2`, `3gp`, `aif`, `aifc`, `aiff`, `asf`, `avi`, `flac`, `iff`, `mp3`, `mp4`, `mpeg1`, `mpeg2`, `mpeg4`, `oga`, `ogg`, `ogv`, `snd`, `wav`, `wma`, `wmv`
+Compression | `7z`, `bz`, `bz2`, `bzip`, `gz`, `gzip`, `pkzip`, `tar`, `zip`
+Documents | `doc`, `pdf`, `ppt`, `xls`
+Images | `bmp`, `gif`, `jpg`, `jpeg`, `png`, `tif`, `tiff`
+Miscellaneous | `dmg`, `iso`
 
 [coveralls-img]: https://coveralls.io/repos/ruiquelhas/magik/badge.svg
 [coveralls-url]: https://coveralls.io/github/ruiquelhas/magik
