@@ -15,9 +15,10 @@
     "url": "git+https://github.com/ruiquelhas/magik.git"
   },
   "keywords": [
-    "files",
+    "file",
+    "magic",
     "signature",
-    "magic"
+    "validation"
   ],
   "author": "Rui Quelhas <rfpquelhas@gmail.com>",
   "license": "BSD-3-Clause",
