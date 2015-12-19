@@ -1,5 +1,21 @@
 # Changelog
 
+## [v1.0.2](https://github.com/ruiquelhas/magik/tree/v1.0.2) (2015-12-19)
+[Full Changelog](https://github.com/ruiquelhas/magik/compare/v1.0.1...v1.0.2)
+
+**Closed issues:**
+
+- Fix broken link in the contribution guidelines [\#6](https://github.com/ruiquelhas/magik/issues/6)
+- Update package keywords [\#5](https://github.com/ruiquelhas/magik/issues/5)
+- Update supported file types presentation style [\#4](https://github.com/ruiquelhas/magik/issues/4)
+- Update documentation code style  [\#3](https://github.com/ruiquelhas/magik/issues/3)
+
+**Merged pull requests:**
+
+- Fix broken link in the contribution guidelines [\#9](https://github.com/ruiquelhas/magik/pull/9) ([ruiquelhas](https://github.com/ruiquelhas))
+- Update package keywords [\#8](https://github.com/ruiquelhas/magik/pull/8) ([ruiquelhas](https://github.com/ruiquelhas))
+- Update documentation [\#7](https://github.com/ruiquelhas/magik/pull/7) ([ruiquelhas](https://github.com/ruiquelhas))
+
 ## [v1.0.1](https://github.com/ruiquelhas/magik/tree/v1.0.1) (2015-11-23)
 [Full Changelog](https://github.com/ruiquelhas/magik/compare/v1.0.0...v1.0.1)
 
