@@ -1,7 +1,7 @@
 {
   "name": "magik",
-  "version": "1.0.2",
-  "description": "File signature utilities.",
+  "version": "1.0.3",
+  "description": "File signature utilities",
   "main": "lib/index.js",
   "scripts": {
     "changelog": "github_changelog_generator --header-label='# Changelog'",

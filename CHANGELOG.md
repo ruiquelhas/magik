@@ -1,5 +1,12 @@
 # Changelog
 
+## [v1.0.3](https://github.com/ruiquelhas/magik/tree/v1.0.3) (2015-12-20)
+[Full Changelog](https://github.com/ruiquelhas/magik/compare/v1.0.2...v1.0.3)
+
+**Merged pull requests:**
+
+- Update all dependencies 🌴 [\#10](https://github.com/ruiquelhas/magik/pull/10) ([greenkeeperio-bot](https://github.com/greenkeeperio-bot))
+
 ## [v1.0.2](https://github.com/ruiquelhas/magik/tree/v1.0.2) (2015-12-19)
 [Full Changelog](https://github.com/ruiquelhas/magik/compare/v1.0.1...v1.0.2)
 
