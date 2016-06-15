@@ -1,5 +1,12 @@
 # Changelog
 
+## [v1.0.4](https://github.com/ruiquelhas/magik/tree/v1.0.4) (2016-06-15)
+[Full Changelog](https://github.com/ruiquelhas/magik/compare/v1.0.3...v1.0.4)
+
+**Merged pull requests:**
+
+- Deprecate package [\#12](https://github.com/ruiquelhas/magik/pull/12) ([ruiquelhas](https://github.com/ruiquelhas))
+
 ## [v1.0.3](https://github.com/ruiquelhas/magik/tree/v1.0.3) (2015-12-20)
 [Full Changelog](https://github.com/ruiquelhas/magik/compare/v1.0.2...v1.0.3)
 
